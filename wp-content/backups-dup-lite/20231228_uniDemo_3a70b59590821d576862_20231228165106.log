@@ -1,0 +1,57 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: December 28, 2023 5:00 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.7.1
+WORDPRESS:	6.4.2
+PHP INFO:	8.0.30 | SAPI: litespeed
+SERVER:		LiteSpeed 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (180M default) 
+MEMORY STACK: 16MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20231228_uniDemo_3a70b59590821d576862_20231228165106_database.sql
+SQL FILE SIZE: 9.08MB (9519472)
+SQL FILE TIME: 2023-12-28 17:00:27
+SQL RUNTIME: 1.97 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home1/zedacoke/public_html/UniDemo
+ARCHIVE FILE: 20231228_uniDemo_3a70b59590821d576862_20231228165106_archive.zip
+FILTERS: *ON*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  zip;rar;tar;gz;bz2;7z;
+----------------------------------------
+COMPRESSING
+SIZE:	233.77MB
+STATS:	Dirs 1,601 | Files 9,087
+SQL ADDED: 20231228_uniDemo_3a70b59590821d576862_20231228165106_database.sql
+ZipArchive Object
+(
+    [lastId] => 10687
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 10688
+    [filename] => /home1/zedacoke/public_html/UniDemo/wp-content/backups-dup-lite/tmp/20231228_uniDemo_3a70b59590821d576862_20231228165106_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 10687
+[PHP ERR][NOTICE] MSG:ob_flush(): Failed to flush buffer. No buffer to flush [CODE:8|FILE:/home1/zedacoke/public_html/UniDemo/wp-content/plugins/duplicator/classes/utilities/class.u.php|LINE:173]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 126.64MB
+ARCHIVE RUNTIME: 94.09 sec.
+MEMORY STACK: 18MB
+building installer

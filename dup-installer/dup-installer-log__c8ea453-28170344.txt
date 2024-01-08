@@ -1,0 +1,837 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 10:30:57
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 8.0.30                                |8.2.12
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.12 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12
+DOC ROOT____________: "C:/xampp/htdocs/host"
+REQUEST URL_________: "http://localhost/host"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: https://www.kevsamsolutions.com/UniDemo/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/host"
+URL_NEW_____________: "http://localhost/host"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/xampp/htdocs/host/20231228_uniDemoWpPackage_[HASH]_20231228170344_archive.zip"
+ARCHIVE SIZE________: 3.2MB
+CREATED_____________: 2023-12-28 17:03:44
+WP VERSION__________: 6.4.2
+DUP VERSION_________: 1.5.7.1
+LICENSE_____________: Free version
+DB VERSION__________: 10.3.39
+DB FILE SIZE________: 14.11MB
+DB TABLES___________: 41
+DB ROWS_____________: 4326
+URL HOME____________: https://www.kevsamsolutions.com/UniDemo
+URL CORE____________: https://www.kevsamsolutions.com/UniDemo
+URL CONTENT_________: https://www.kevsamsolutions.com/UniDemo/wp-content
+URL UPLOAD__________: https://www.kevsamsolutions.com/UniDemo/wp-content/uploads
+URL PLUGINS_________: https://www.kevsamsolutions.com/UniDemo/wp-content/plugins
+URL MU PLUGINS______: https://www.kevsamsolutions.com/UniDemo/wp-content/mu-plugins
+URL THEMES__________: https://www.kevsamsolutions.com/UniDemo/wp-content/themes
+PATH HOME___________: /home1/zedacoke/public_html/UniDemo
+PATH ABS____________: /home1/zedacoke/public_html/UniDemo
+PATH WPCONFIG_______: /home1/zedacoke/public_html/UniDemo
+PATH WPCONTENT______: /home1/zedacoke/public_html/UniDemo/wp-content
+PATH UPLOADS________: /home1/zedacoke/public_html/UniDemo/wp-content/uploads
+PATH PLUGINS________: /home1/zedacoke/public_html/UniDemo/wp-content/plugins
+PATH MUPLUGINS______: /home1/zedacoke/public_html/UniDemo/wp-content/mu-plugins
+PATH THEMES_________: /home1/zedacoke/public_html/UniDemo/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "www.kevsamsolutions.com/UniDemo/"
+
+PLUGINS
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-spam: Spam Protection
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:h5p/h5p.php                                       ][ON:true ]  H5P
+PLUGIN [SLUG:hello.php                                         ][ON:false]  Hello Dolly
+PLUGIN [SLUG:learnpress/learnpress.php                         ][ON:true ]  LearnPress
+PLUGIN [SLUG:mailchimp-for-wp/mailchimp-for-wp.php             ][ON:true ]  MC4WP: Mailchimp for WordPress
+PLUGIN [SLUG:thim-core/thim-core.php                           ][ON:true ]  Thim Core
+PLUGIN [SLUG:thim-elementor-kit/thim-elementor-kit.php         ][ON:true ]  Thim Elementor Kit
+PLUGIN [SLUG:tp-portfolio/tp-portfolio.php                     ][ON:true ]  Thim Portfolio
+PLUGIN [SLUG:wp-events-manager/wp-events-manager.php           ][ON:true ]  WP Events Manager
+
+********************************************************************************
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\ctrls\ctrl.base.php:227][DELTA:   1.47990]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\ctrls\ctrl.base.php:227][DELTA:   1.35124]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Database Only" RESULT: soft warning
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/host"
+--------------------------------------
+LOG-TIME[DELTA:   0.05804]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00081]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00091]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00052]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.04036]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00045]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00069]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00142]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00023]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00023]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00057]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00572]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.70898]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00058]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00105]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00130]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/host"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 10:31:48
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Uni"
+HOME URL NEW________: "http://localhost/host"
+SITE URL NEW________: "http://localhost/host"
+CONTENT URL NEW_____: "http://localhost/host/wp-content"
+UPLOAD URL NEW______: "http://localhost/host/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/host/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/host/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/host"
+SITE PATH NEW_______: "C:/xampp/htdocs/host"
+CONTENT PATH NEW____: "C:/xampp/htdocs/host/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/host/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/host/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/host/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/xampp/htdocs/host/dup-installer"
+	FILE: "C:/xampp/htdocs/host/20231228_uniDemoWpPackage_[HASH]_20231228170344_installer-backup.php"
+	FILE: "C:/xampp/htdocs/host/20231228_uniDemoWpPackage_[HASH]_20231228170344_archive.zip"
+	FILE: "C:/xampp/htdocs/host/installer.php"
+	FILE: "C:/xampp/htdocs/host/dup-installer-bootlog__c8ea453-28170344.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20231228_uniDemoWpPackage_[HASH]_20231228170344_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+EXPORT DB ONLY CHECKS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+FILE EXTRACTION: done processing last file in list of 608
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 10:31:48 - RUNTIME: 0.1096 sec. - Files processed: 0 of 0
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp5x_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 10:31:48
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "rename"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp5x_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp5x_commentmeta"________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp5x_commentmeta]
+TABLE "wp5x_comments"___________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp5x_comments]
+TABLE "wp5x_duplicator_packages"________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp5x_duplicator_packages]
+TABLE "wp5x_e_events"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_e_events]
+TABLE "wp5x_h5p_contents"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_contents]
+TABLE "wp5x_h5p_contents_libraries"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_contents_libraries]
+TABLE "wp5x_h5p_contents_tags"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_contents_tags]
+TABLE "wp5x_h5p_contents_user_data"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_contents_user_data]
+TABLE "wp5x_h5p_counters"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_counters]
+TABLE "wp5x_h5p_events"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_events]
+TABLE "wp5x_h5p_libraries"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_libraries]
+TABLE "wp5x_h5p_libraries_cachedassets"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_libraries_cachedassets]
+TABLE "wp5x_h5p_libraries_hub_cache"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_libraries_hub_cache]
+TABLE "wp5x_h5p_libraries_languages"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_libraries_languages]
+TABLE "wp5x_h5p_libraries_libraries"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_libraries_libraries]
+TABLE "wp5x_h5p_results"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_results]
+TABLE "wp5x_h5p_tags"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_tags]
+TABLE "wp5x_h5p_tmpfiles"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_h5p_tmpfiles]
+TABLE "wp5x_learnpress_files"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_learnpress_files]
+TABLE "wp5x_learnpress_order_itemmeta"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_learnpress_order_itemmeta]
+TABLE "wp5x_learnpress_order_items"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_learnpress_order_items]
+TABLE "wp5x_learnpress_question_answermeta"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_learnpress_question_answermeta]
+TABLE "wp5x_learnpress_question_answers"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_learnpress_question_answers]
+TABLE "wp5x_learnpress_quiz_questions"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_learnpress_quiz_questions]
+TABLE "wp5x_learnpress_sections"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_learnpress_sections]
+TABLE "wp5x_learnpress_section_items"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_learnpress_section_items]
+TABLE "wp5x_learnpress_sessions"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_learnpress_sessions]
+TABLE "wp5x_learnpress_user_itemmeta"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_learnpress_user_itemmeta]
+TABLE "wp5x_learnpress_user_items"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_learnpress_user_items]
+TABLE "wp5x_learnpress_user_item_results"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_learnpress_user_item_results]
+TABLE "wp5x_links"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp5x_links]
+TABLE "wp5x_options"____________________________________[ROWS:     299] [EXTRACT|REPLACE] [INST NAME: wp5x_options]
+TABLE "wp5x_postmeta"___________________________________[ROWS:    3808] [EXTRACT|REPLACE] [INST NAME: wp5x_postmeta]
+TABLE "wp5x_posts"______________________________________[ROWS:     418] [EXTRACT|REPLACE] [INST NAME: wp5x_posts]
+TABLE "wp5x_termmeta"___________________________________[ROWS:      74] [EXTRACT|REPLACE] [INST NAME: wp5x_termmeta]
+TABLE "wp5x_terms"______________________________________[ROWS:      36] [EXTRACT|REPLACE] [INST NAME: wp5x_terms]
+TABLE "wp5x_term_relationships"_________________________[ROWS:     148] [EXTRACT|REPLACE] [INST NAME: wp5x_term_relationships]
+TABLE "wp5x_term_taxonomy"______________________________[ROWS:      36] [EXTRACT|REPLACE] [INST NAME: wp5x_term_taxonomy]
+TABLE "wp5x_thim_cache"_________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp5x_thim_cache]
+TABLE "wp5x_usermeta"___________________________________[ROWS:      25] [EXTRACT|REPLACE] [INST NAME: wp5x_usermeta]
+TABLE "wp5x_users"______________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp5x_users]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.32 -- Build Server: 10.3.39
+FILE SIZE:	dup-database__[HASH].sql (9.08MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+TABLE RENAME TO BACKUP
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`zedacoke_wp547`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	360
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp5x_commentmeta"________________________________[ROWS:     1]
+TABLE "wp5x_comments"___________________________________[ROWS:     2]
+TABLE "wp5x_duplicator_packages"________________________[ROWS:     2]
+TABLE "wp5x_e_events"___________________________________[ROWS:     0]
+TABLE "wp5x_h5p_contents"_______________________________[ROWS:     0]
+TABLE "wp5x_h5p_contents_libraries"_____________________[ROWS:     0]
+TABLE "wp5x_h5p_contents_tags"__________________________[ROWS:     0]
+TABLE "wp5x_h5p_contents_user_data"_____________________[ROWS:     0]
+TABLE "wp5x_h5p_counters"_______________________________[ROWS:     0]
+TABLE "wp5x_h5p_events"_________________________________[ROWS:     0]
+TABLE "wp5x_h5p_libraries"______________________________[ROWS:     0]
+TABLE "wp5x_h5p_libraries_cachedassets"_________________[ROWS:     0]
+TABLE "wp5x_h5p_libraries_hub_cache"____________________[ROWS:     0]
+TABLE "wp5x_h5p_libraries_languages"____________________[ROWS:     0]
+TABLE "wp5x_h5p_libraries_libraries"____________________[ROWS:     0]
+TABLE "wp5x_h5p_results"________________________________[ROWS:     0]
+TABLE "wp5x_h5p_tags"___________________________________[ROWS:     0]
+TABLE "wp5x_h5p_tmpfiles"_______________________________[ROWS:     0]
+TABLE "wp5x_learnpress_files"___________________________[ROWS:     0]
+TABLE "wp5x_learnpress_order_itemmeta"__________________[ROWS:     0]
+TABLE "wp5x_learnpress_order_items"_____________________[ROWS:     0]
+TABLE "wp5x_learnpress_question_answermeta"_____________[ROWS:     0]
+TABLE "wp5x_learnpress_question_answers"________________[ROWS:     0]
+TABLE "wp5x_learnpress_quiz_questions"__________________[ROWS:     0]
+TABLE "wp5x_learnpress_section_items"___________________[ROWS:     0]
+TABLE "wp5x_learnpress_sections"________________________[ROWS:     0]
+TABLE "wp5x_learnpress_sessions"________________________[ROWS:     0]
+TABLE "wp5x_learnpress_user_item_results"_______________[ROWS:     0]
+TABLE "wp5x_learnpress_user_itemmeta"___________________[ROWS:     0]
+TABLE "wp5x_learnpress_user_items"______________________[ROWS:     0]
+TABLE "wp5x_links"______________________________________[ROWS:     0]
+TABLE "wp5x_options"____________________________________[ROWS:   299]
+TABLE "wp5x_postmeta"___________________________________[ROWS:  3808]
+TABLE "wp5x_posts"______________________________________[ROWS:   418]
+TABLE "wp5x_term_relationships"_________________________[ROWS:   148]
+TABLE "wp5x_term_taxonomy"______________________________[ROWS:    36]
+TABLE "wp5x_termmeta"___________________________________[ROWS:    74]
+TABLE "wp5x_terms"______________________________________[ROWS:    36]
+TABLE "wp5x_thim_cache"_________________________________[ROWS:     1]
+TABLE "wp5x_usermeta"___________________________________[ROWS:    25]
+TABLE "wp5x_users"______________________________________[ROWS:     1]
+
+INSERT DATA RUNTIME: 21.5181 sec.
+STEP-2 COMPLETE @ 10:32:11 - RUNTIME: 21.5183 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home1/zedacoke/public_html/UniDemo REPLACE: C:/xampp/htdocs/host [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://www.kevsamsolutions.com/UniDemo REPLACE: http://localhost/host [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 10:32:12
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:C:\xampp\htdocs\host\dup-installer\src\Core\Deploy\Database\DbCleanup.php|LINE:95]
+CLEAN OPTIONS [wp5x_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    45]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     2]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp5x_commentmeta"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home1/zedacoke/public_html/UniDemo" =============> "C:/xampp/htdocs/host"
+	SEARCH[urlnd]  2:"https://www.kevsamsolutions.com/UniDemo" =========> "http://localhost/host"
+	CHUNK ACTION: CURRENT [search_replace][wp5x_commentmeta][0]
+
+EVALUATE TABLE: "wp5x_comments"___________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home1/zedacoke/public_html/UniDemo" =============> "C:/xampp/htdocs/host"
+	SEARCH[urlnd]  2:"https://www.kevsamsolutions.com/UniDemo" =========> "http://localhost/host"
+	CHUNK ACTION: CURRENT [search_replace][wp5x_comments][0]
+
+EVALUATE TABLE: "wp5x_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_e_events"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_contents"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_contents_libraries"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_contents_tags"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_contents_user_data"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_counters"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_events"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_libraries"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_libraries_cachedassets"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_libraries_hub_cache"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_libraries_languages"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_libraries_libraries"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_results"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_tags"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_h5p_tmpfiles"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_learnpress_files"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_learnpress_order_itemmeta"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_learnpress_order_items"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_learnpress_question_answermeta"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_learnpress_question_answers"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_learnpress_quiz_questions"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_learnpress_sections"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_learnpress_section_items"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_learnpress_sessions"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_learnpress_user_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_learnpress_user_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_learnpress_user_item_results"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_options"____________________________________[ROWS:   254][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home1/zedacoke/public_html/UniDemo" =============> "C:/xampp/htdocs/host"
+	SEARCH[urlnd]  2:"https://www.kevsamsolutions.com/UniDemo" =========> "http://localhost/host"
+	CHUNK ACTION: CURRENT [search_replace][wp5x_options][0]
+
+EVALUATE TABLE: "wp5x_postmeta"___________________________________[ROWS:  3808][PG:   4][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home1/zedacoke/public_html/UniDemo" =============> "C:/xampp/htdocs/host"
+	SEARCH[urlnd]  2:"https://www.kevsamsolutions.com/UniDemo" =========> "http://localhost/host"
+	CHUNK ACTION: CURRENT [search_replace][wp5x_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp5x_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp5x_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp5x_postmeta][3]
+	
+STEP-3 CHUNK STOP @ 10:32:23 - RUNTIME: 11.5717 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp5x_posts"______________________________________[ROWS:   418][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home1/zedacoke/public_html/UniDemo" =============> "C:/xampp/htdocs/host"
+	SEARCH[urlnd]  2:"https://www.kevsamsolutions.com/UniDemo" =========> "http://localhost/host"
+	CHUNK ACTION: CURRENT [search_replace][wp5x_posts][0]
+	
+STEP-3 CHUNK STOP @ 10:32:45 - RUNTIME: 21.5730 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp5x_termmeta"___________________________________[ROWS:    74][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home1/zedacoke/public_html/UniDemo" =============> "C:/xampp/htdocs/host"
+	SEARCH[urlnd]  2:"https://www.kevsamsolutions.com/UniDemo" =========> "http://localhost/host"
+	CHUNK ACTION: CURRENT [search_replace][wp5x_termmeta][0]
+
+EVALUATE TABLE: "wp5x_terms"______________________________________[ROWS:    36][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home1/zedacoke/public_html/UniDemo" =============> "C:/xampp/htdocs/host"
+	SEARCH[urlnd]  2:"https://www.kevsamsolutions.com/UniDemo" =========> "http://localhost/host"
+	CHUNK ACTION: CURRENT [search_replace][wp5x_terms][0]
+
+EVALUATE TABLE: "wp5x_term_relationships"_________________________[ROWS:   148][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp5x_term_taxonomy"______________________________[ROWS:    36][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home1/zedacoke/public_html/UniDemo" =============> "C:/xampp/htdocs/host"
+	SEARCH[urlnd]  2:"https://www.kevsamsolutions.com/UniDemo" =========> "http://localhost/host"
+	CHUNK ACTION: CURRENT [search_replace][wp5x_term_taxonomy][0]
+
+EVALUATE TABLE: "wp5x_thim_cache"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home1/zedacoke/public_html/UniDemo" =============> "C:/xampp/htdocs/host"
+	SEARCH[urlnd]  2:"https://www.kevsamsolutions.com/UniDemo" =========> "http://localhost/host"
+	CHUNK ACTION: CURRENT [search_replace][wp5x_thim_cache][0]
+
+EVALUATE TABLE: "wp5x_usermeta"___________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home1/zedacoke/public_html/UniDemo" =============> "C:/xampp/htdocs/host"
+	SEARCH[urlnd]  2:"https://www.kevsamsolutions.com/UniDemo" =========> "http://localhost/host"
+	CHUNK ACTION: CURRENT [search_replace][wp5x_usermeta][0]
+
+EVALUATE TABLE: "wp5x_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home1/zedacoke/public_html/UniDemo" =============> "C:/xampp/htdocs/host"
+	SEARCH[urlnd]  2:"https://www.kevsamsolutions.com/UniDemo" =========> "http://localhost/host"
+	CHUNK ACTION: CURRENT [search_replace][wp5x_users][0]
+--------------------------------------
+SCANNED:	Tables:41 	|	 Rows:4656 	|	 Cells:26665 
+UPDATED:	Tables:4 	|	 Rows:464 	|	 Cells:529 
+ERRORS:		0 
+RUNTIME:	34.189500 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/host/wp-config.php
+New htaccess file created:C:/xampp/htdocs/host/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""zedacoke_wp547""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+index.php isn't writable
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:32:48 - RUNTIME: 2.7587 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+[PHP ERR][E_WARNING] MSG:file_put_contents(C:/xampp/htdocs/host/wp-content/wp_test_script_c8ea453-28170344.php): Failed to open stream: No such file or directory [CODE:2|FILE:C:\xampp\htdocs\host\dup-installer\src\Utils\Tests\WP\TestsExecuter.php|LINE:35]
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[C:\xampp\htdocs\host\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.10252]  MESSAGE:END RENDER PAGE

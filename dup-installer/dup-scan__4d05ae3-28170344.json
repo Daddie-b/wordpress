@@ -1,0 +1,457 @@
+{
+    "RPT": {
+        "ScanTime": "0.03 sec.",
+        "ScanFile": "20231228_uniDemoWpPackage_4d05ae358424d5a78184_20231228170344_scan.json",
+        "Warnings": 0,
+        "Success": 6
+    },
+    "SRV": {
+        "PHP": {
+            "websrv": true,
+            "openbase": true,
+            "maxtime": true,
+            "mysqli": true,
+            "version": true
+        },
+        "SYS": {
+            "managedHost": true,
+            "ALL": "Good"
+        },
+        "WP": {
+            "version": true,
+            "core": true,
+            "ismu": false,
+            "ALL": "Good"
+        }
+    },
+    "ARC": {
+        "USize": 0,
+        "Size": "0B",
+        "DirCount": "0",
+        "FileCount": "0",
+        "UFullCount": 0,
+        "FullCount": "0",
+        "WarnFileCount": 0,
+        "WarnDirCount": 0,
+        "UnreadableDirCount": 0,
+        "UnreadableFileCount": 0,
+        "FilterDirsAll": [
+            "\/home1\/zedacoke\/public_html\/UniDemo\/.opcache",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/ai1wm-backups",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/backups-dup-lite",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/backups-dup-pro",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/backupwordpress",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/bps-backup",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/cache",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/content\/cache",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/contents\/cache",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/infinitewp\/backups",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/managewp\/backups",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/old-cache",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/updraft",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/aiowps_backups",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/backupbuddy_backups",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/backupbuddy_temp",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/ithemes-security\/backups",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/mainwp\/backup",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/pb_backupbuddy",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/snapshots",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/sucuri",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/wp-clone",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/wp_all_backup",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/wpbackitup_backups",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/wfcache",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/wishlist-backup",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-snapshots"
+        ],
+        "FilterFilesAll": [
+            "error_log",
+            "error.log",
+            "debug_log",
+            "ws_ftp.log",
+            "dbcache",
+            "pgcache",
+            "objectcache",
+            ".DS_Store",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/.htaccess",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-config.php",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/.htaccess",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/web.config",
+            "\/home1\/zedacoke\/public_html\/UniDemo\/wp-config.php"
+        ],
+        "FilterExtsAll": [
+            "zip",
+            "rar",
+            "tar",
+            "gz",
+            "bz2",
+            "7z",
+            ""
+        ],
+        "FilterInfo": {
+            "Dirs": {
+                "Warning": [],
+                "Unreadable": [],
+                "AddonSites": [],
+                "Core": [
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-snapshots",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/backups-dup-lite",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/.opcache",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/backups-dup-pro",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/ai1wm-backups",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/backupwordpress",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/content\/cache",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/contents\/cache",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/infinitewp\/backups",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/managewp\/backups",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/old-cache",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/updraft",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/wishlist-backup",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/wfcache",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/bps-backup",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/cache",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/aiowps_backups",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/backupbuddy_temp",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/backupbuddy_backups",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/ithemes-security\/backups",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/mainwp\/backup",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/pb_backupbuddy",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/snapshots",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/sucuri",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/wp-clone",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/wp_all_backup",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads\/wpbackitup_backups"
+                ],
+                "Global": [],
+                "Instance": []
+            },
+            "Files": {
+                "Size": [],
+                "Warning": [],
+                "Unreadable": [],
+                "AddonSites": [],
+                "Core": [],
+                "Global": [
+                    "error_log",
+                    "error.log",
+                    "debug_log",
+                    "ws_ftp.log",
+                    "dbcache",
+                    "pgcache",
+                    "objectcache",
+                    ".DS_Store",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/.htaccess",
+                    "\/home1\/zedacoke\/public_html\/UniDemo\/wp-config.php"
+                ],
+                "Instance": []
+            },
+            "Exts": {
+                "Core": [],
+                "Global": [],
+                "Instance": [
+                    "zip",
+                    "rar",
+                    "tar",
+                    "gz",
+                    "bz2",
+                    "7z",
+                    ""
+                ]
+            },
+            "UDirCount": 0,
+            "UFileCount": 0,
+            "UExtCount": 0,
+            "TreeSize": [],
+            "TreeWarning": []
+        },
+        "RecursiveLinks": [],
+        "UnreadableItems": [],
+        "Status": {
+            "Size": "Good",
+            "Names": "Good",
+            "UnreadableItems": "Good",
+            "MigratePackage": "Good",
+            "CanbeMigratePackage": true,
+            "showCreateProcFuncStatus": "Good",
+            "showCreateProcFunc": true,
+            "AddonSites": "Good"
+        },
+        "Dirs": [],
+        "Files": []
+    },
+    "DB": {
+        "Status": {
+            "Success": true,
+            "DB_Case": "Good",
+            "DB_Rows": "Good",
+            "DB_Size": "Good",
+            "TBL_Case": "Good",
+            "TBL_Rows": "Good",
+            "TBL_Size": "Good",
+            "Triggers": "Good",
+            "mysqlDumpMemoryCheck": true,
+            "requiredMysqlDumpLimit": "64.11MB"
+        },
+        "Size": 14794752,
+        "Rows": 4325,
+        "TableCount": 41,
+        "TableList": {
+            "wp5x_commentmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": "49152"
+            },
+            "wp5x_comments": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "96KB",
+                "USize": "98304"
+            },
+            "wp5x_duplicator_packages": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_e_events": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_h5p_contents": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": "16384"
+            },
+            "wp5x_h5p_contents_libraries": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": "16384"
+            },
+            "wp5x_h5p_contents_tags": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": "16384"
+            },
+            "wp5x_h5p_contents_user_data": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": "16384"
+            },
+            "wp5x_h5p_counters": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": "16384"
+            },
+            "wp5x_h5p_events": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": "16384"
+            },
+            "wp5x_h5p_libraries": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": "49152"
+            },
+            "wp5x_h5p_libraries_cachedassets": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": "16384"
+            },
+            "wp5x_h5p_libraries_hub_cache": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_h5p_libraries_languages": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": "16384"
+            },
+            "wp5x_h5p_libraries_libraries": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": "16384"
+            },
+            "wp5x_h5p_results": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_h5p_tags": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": "16384"
+            },
+            "wp5x_h5p_tmpfiles": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_learnpress_files": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "64KB",
+                "USize": "65536"
+            },
+            "wp5x_learnpress_order_itemmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "64KB",
+                "USize": "65536"
+            },
+            "wp5x_learnpress_order_items": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "64KB",
+                "USize": "65536"
+            },
+            "wp5x_learnpress_question_answermeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_learnpress_question_answers": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_learnpress_quiz_questions": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": "49152"
+            },
+            "wp5x_learnpress_sections": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_learnpress_section_items": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_learnpress_sessions": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_learnpress_user_itemmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "64KB",
+                "USize": "65536"
+            },
+            "wp5x_learnpress_user_items": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "128KB",
+                "USize": "131072"
+            },
+            "wp5x_learnpress_user_item_results": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_links": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_options": {
+                "Case": 0,
+                "Rows": "292",
+                "Size": "2.52MB",
+                "USize": "2637824"
+            },
+            "wp5x_postmeta": {
+                "Case": 0,
+                "Rows": "3,328",
+                "Size": "6.8MB",
+                "USize": "7127040"
+            },
+            "wp5x_posts": {
+                "Case": 0,
+                "Rows": "395",
+                "Size": "3.34MB",
+                "USize": "3506176"
+            },
+            "wp5x_termmeta": {
+                "Case": 0,
+                "Rows": "73",
+                "Size": "48KB",
+                "USize": "49152"
+            },
+            "wp5x_terms": {
+                "Case": 0,
+                "Rows": "35",
+                "Size": "48KB",
+                "USize": "49152"
+            },
+            "wp5x_term_relationships": {
+                "Case": 0,
+                "Rows": "141",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_term_taxonomy": {
+                "Case": 0,
+                "Rows": "35",
+                "Size": "48KB",
+                "USize": "49152"
+            },
+            "wp5x_thim_cache": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": "32768"
+            },
+            "wp5x_usermeta": {
+                "Case": 0,
+                "Rows": "25",
+                "Size": "48KB",
+                "USize": "49152"
+            },
+            "wp5x_users": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "64KB",
+                "USize": "65536"
+            }
+        },
+        "RawSize": 14794752,
+        "EasySize": "14.11MB"
+    },
+    "LL": {
+        "TotalSize": "14.11MB",
+        "Status": {
+            "TotalSize": "Good"
+        }
+    }
+}

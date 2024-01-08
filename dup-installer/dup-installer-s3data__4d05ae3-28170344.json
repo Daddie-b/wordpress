@@ -1,0 +1,53 @@
+{
+    "report": {
+        "pass": 0,
+        "chunk": 1,
+        "chunkPos": {
+            "l0": "final_report",
+            "l1": null,
+            "l2": null
+        },
+        "progress_perc": 100,
+        "scan_tables": 41,
+        "scan_rows": 4656,
+        "scan_cells": 26665,
+        "updt_tables": 4,
+        "updt_rows": 464,
+        "updt_cells": 529,
+        "errsql": [],
+        "errser": [],
+        "errkey": [],
+        "errsql_sum": 0,
+        "errser_sum": 0,
+        "errkey_sum": 0,
+        "profile_start": 1704580332.875139,
+        "profile_end": 1704580367.064641,
+        "time": "34.1895 sec.",
+        "err_all": 0,
+        "warn_all": 0,
+        "warnlist": []
+    },
+    "cTableParams": null,
+    "replaceData": [
+        {
+            "id": 0,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "path",
+            "search": "\/home1\/zedacoke\/public_html\/UniDemo",
+            "replace": "C:\/xampp\/htdocs\/host"
+        },
+        {
+            "id": 1,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "urlnd",
+            "search": "https:\/\/www.kevsamsolutions.com\/UniDemo",
+            "replace": "http:\/\/localhost\/host"
+        }
+    ]
+}

@@ -1,0 +1,771 @@
+{
+    "dup_type": "lite",
+    "created": "2023-12-28 17:03:44",
+    "version_dup": "1.5.7.1",
+    "version_wp": "6.4.2",
+    "version_db": "10.3.39",
+    "version_php": "8.0.30",
+    "version_os": "Linux",
+    "blogname": "Uni",
+    "exportOnlyDB": 1,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$MvydiiKuWWXZ.R.Xp2KzmeJywotsOFGIufluwNzxOzev95ORSTXLO",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp5x_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "www.kevsamsolutions.com",
+            "path": "\/UniDemo\/",
+            "blogname": "Uni",
+            "blog_prefix": "wp5x_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "unidemo",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/www.kevsamsolutions.com\/UniDemo",
+            "fullSiteUrl": "https:\/\/www.kevsamsolutions.com\/UniDemo",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/www.kevsamsolutions.com\/UniDemo\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4"
+        ],
+        "collationList": [
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "zedacoke_wp547",
+        "tablesBaseCount": 41,
+        "tablesFinalCount": 41,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 4326,
+        "tablesSizeOnDisk": 14794752,
+        "tablesList": {
+            "wp5x_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp5x_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 2,
+                "size": 98304
+            },
+            "wp5x_duplicator_packages": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp5x_e_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp5x_h5p_contents": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp5x_h5p_contents_libraries": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp5x_h5p_contents_tags": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp5x_h5p_contents_user_data": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp5x_h5p_counters": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp5x_h5p_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp5x_h5p_libraries": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp5x_h5p_libraries_cachedassets": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp5x_h5p_libraries_hub_cache": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp5x_h5p_libraries_languages": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp5x_h5p_libraries_libraries": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp5x_h5p_results": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp5x_h5p_tags": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp5x_h5p_tmpfiles": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp5x_learnpress_files": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp5x_learnpress_order_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp5x_learnpress_order_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp5x_learnpress_question_answermeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp5x_learnpress_question_answers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp5x_learnpress_quiz_questions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp5x_learnpress_sections": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp5x_learnpress_section_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp5x_learnpress_sessions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp5x_learnpress_user_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp5x_learnpress_user_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "wp5x_learnpress_user_item_results": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp5x_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp5x_options": {
+                "inaccurateRows": 292,
+                "insertedRows": 299,
+                "size": 2637824
+            },
+            "wp5x_postmeta": {
+                "inaccurateRows": 3328,
+                "insertedRows": 3808,
+                "size": 7127040
+            },
+            "wp5x_posts": {
+                "inaccurateRows": 395,
+                "insertedRows": 418,
+                "size": 3506176
+            },
+            "wp5x_termmeta": {
+                "inaccurateRows": 73,
+                "insertedRows": 74,
+                "size": 49152
+            },
+            "wp5x_terms": {
+                "inaccurateRows": 35,
+                "insertedRows": 36,
+                "size": 49152
+            },
+            "wp5x_term_relationships": {
+                "inaccurateRows": 141,
+                "insertedRows": 148,
+                "size": 32768
+            },
+            "wp5x_term_taxonomy": {
+                "inaccurateRows": 35,
+                "insertedRows": 36,
+                "size": 49152
+            },
+            "wp5x_thim_cache": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp5x_usermeta": {
+                "inaccurateRows": 25,
+                "insertedRows": 25,
+                "size": 49152
+            },
+            "wp5x_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 65536
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.3.39",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 2,
+        "packageName": "20231228_uniDemoWpPackage",
+        "packageHash": "4d05ae3-28170344",
+        "secondaryHash": "3c784f1-28170344"
+    },
+    "fileInfo": {
+        "dirCount": 0,
+        "fileCount": 0,
+        "size": 1507511
+    },
+    "wpInfo": {
+        "version": "6.4.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home1\/zedacoke\/public_html\/UniDemo",
+        "targetPaths": [
+            "\/home1\/zedacoke\/public_html\/UniDemo"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "unidemo",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home1\/zedacoke\/public_html\/UniDemo\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "ybysmbyzpoiuop6i9q16njxn0toi0xefmtgc5wzimnykltjnk5pkegf3lxjf5kfi",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "jscmmbap2qpg0oulg3o2pja9daktd9tj42k6frkiktr3ydexqmxdhvum7sa7juhi",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "0r3zccq4kh5eypa4r7nqkaebelbcdzaruhlhptdv4b5i0sr7b6la38eepcjcdvmg",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "fupzb7ygt1pmupkntygemwwwqmisyrjjkscz0pltspfuc1upr9cdmj1fzk4t7o4l",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "yr4siqfizqzimcggbszsvatfg59re2eugepwgke6z5oxcnmbrgqd5tcueumpfb1g",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "fw9kioaqubkohx3bqklonq8ixzfwfs76yeciwrfxf7moaqdccodhyyxmobcthxnj",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "3kpfbjtswfrptryvuoky0jkxy4vrohnnskbv3afql6vravc5d56hshiesvq5wwux",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "yrr5locm21zth39aeaszg6bbixnsetiluloyhasbbgyaaobwj8k6lhbhjoy8dd2n",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/www.kevsamsolutions.com\/UniDemo\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/www.kevsamsolutions.com\/UniDemo\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/UniDemo\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/UniDemo\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/UniDemo\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/UniDemo\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/themes\/eduma",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/themes\/eduma",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/www.kevsamsolutions.com\/UniDemo\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/www.kevsamsolutions.com\/UniDemo",
+                "homeUrl": "https:\/\/www.kevsamsolutions.com\/UniDemo",
+                "loginUrl": "https:\/\/www.kevsamsolutions.com\/UniDemo\/wp-login.php",
+                "contentUrl": "https:\/\/www.kevsamsolutions.com\/UniDemo\/wp-content",
+                "uploadBaseUrl": "https:\/\/www.kevsamsolutions.com\/UniDemo\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/www.kevsamsolutions.com\/UniDemo\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/www.kevsamsolutions.com\/UniDemo\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/www.kevsamsolutions.com\/UniDemo\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home1\/zedacoke\/public_html\/UniDemo",
+                    "abs": "\/home1\/zedacoke\/public_html\/UniDemo",
+                    "wpconfig": "\/home1\/zedacoke\/public_html\/UniDemo",
+                    "wpcontent": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content",
+                    "uploads": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads",
+                    "plugins": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/plugins",
+                    "muplugins": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/mu-plugins",
+                    "themes": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home1\/zedacoke\/public_html\/UniDemo",
+                    "abs": "\/home1\/zedacoke\/public_html\/UniDemo",
+                    "wpconfig": "\/home1\/zedacoke\/public_html\/UniDemo",
+                    "wpcontent": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content",
+                    "uploads": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/uploads",
+                    "plugins": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/plugins",
+                    "muplugins": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/mu-plugins",
+                    "themes": "\/home1\/zedacoke\/public_html\/UniDemo\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "akismet\/akismet.php": {
+                "slug": "akismet\/akismet.php",
+                "name": "Akismet Anti-spam: Spam Protection",
+                "version": "5.3",
+                "pluginURI": "https:\/\/akismet.com\/",
+                "author": "Automattic - Anti-spam Team",
+                "authorURI": "https:\/\/automattic.com\/wordpress-plugins\/",
+                "description": "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam<\/strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.",
+                "title": "Akismet Anti-spam: Spam Protection",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.8.5",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.7.1",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.18.3",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "h5p\/h5p.php": {
+                "slug": "h5p\/h5p.php",
+                "name": "H5P",
+                "version": "1.15.7",
+                "pluginURI": "http:\/\/h5p.org\/wordpress",
+                "author": "Joubel",
+                "authorURI": "http:\/\/joubel.com",
+                "description": "Allows you to upload, create, share and use rich interactive content on your WordPress site.",
+                "title": "H5P",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "hello.php": {
+                "slug": "hello.php",
+                "name": "Hello Dolly",
+                "version": "1.7.2",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/hello-dolly\/",
+                "author": "Matt Mullenweg",
+                "authorURI": "http:\/\/ma.tt\/",
+                "description": "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly<\/cite> in the upper right of your admin screen on every page.",
+                "title": "Hello Dolly",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "learnpress\/learnpress.php": {
+                "slug": "learnpress\/learnpress.php",
+                "name": "LearnPress",
+                "version": "4.2.5.8",
+                "pluginURI": "http:\/\/thimpress.com\/learnpress",
+                "author": "ThimPress",
+                "authorURI": "http:\/\/thimpress.com",
+                "description": "LearnPress is a WordPress complete solution for creating a Learning Management System (LMS). It can help you to create courses, lessons and quizzes.",
+                "title": "LearnPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "mailchimp-for-wp\/mailchimp-for-wp.php": {
+                "slug": "mailchimp-for-wp\/mailchimp-for-wp.php",
+                "name": "MC4WP: Mailchimp for WordPress",
+                "version": "4.9.10",
+                "pluginURI": "https:\/\/www.mc4wp.com\/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=plugins-page",
+                "author": "ibericode",
+                "authorURI": "https:\/\/ibericode.com\/",
+                "description": "Mailchimp for WordPress by ibericode. Adds various highly effective sign-up methods to your site.",
+                "title": "MC4WP: Mailchimp for WordPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "thim-core\/thim-core.php": {
+                "slug": "thim-core\/thim-core.php",
+                "name": "Thim Core",
+                "version": "2.2.9",
+                "pluginURI": "https:\/\/thimpresswp.github.io\/thim-core\/",
+                "author": "ThimPress",
+                "authorURI": "https:\/\/thimpress.com",
+                "description": "The Ultimate Core Processor of all WordPress themes by ThimPress - Manage your website easier with Thim Core.",
+                "title": "Thim Core",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "thim-elementor-kit\/thim-elementor-kit.php": {
+                "slug": "thim-elementor-kit\/thim-elementor-kit.php",
+                "name": "Thim Elementor Kit",
+                "version": "1.1.7.5",
+                "pluginURI": "",
+                "author": "ThimPress",
+                "authorURI": "http:\/\/thimpress.com",
+                "description": "It is page builder for the Elementor page builder.",
+                "title": "Thim Elementor Kit",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "tp-portfolio\/tp-portfolio.php": {
+                "slug": "tp-portfolio\/tp-portfolio.php",
+                "name": "Thim Portfolio",
+                "version": "1.8",
+                "pluginURI": "http:\/\/thimpress.com",
+                "author": "ThimPress",
+                "authorURI": "http:\/\/thimpress.com",
+                "description": "A plugin that allows you to show off your portfolio.",
+                "title": "Thim Portfolio",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-events-manager\/wp-events-manager.php": {
+                "slug": "wp-events-manager\/wp-events-manager.php",
+                "name": "WP Events Manager",
+                "version": "2.1.10",
+                "pluginURI": "http:\/\/thimpress.com\/",
+                "author": "ThimPress",
+                "authorURI": "http:\/\/thimpress.com",
+                "description": "A complete plugin for Events management and online booking system",
+                "title": "WP Events Manager",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "eduma": {
+                "slug": "eduma",
+                "themeName": "Eduma",
+                "version": "5.3.9",
+                "themeURI": "https:\/\/eduma.thimpress.com\/",
+                "parentTheme": false,
+                "template": "eduma",
+                "stylesheet": "eduma",
+                "description": "Premium Online LMS &amp; Education WordPress Theme.",
+                "author": "ThimPress",
+                "authorURI": "https:\/\/thimpress.com",
+                "tags": [
+                    "two-columns",
+                    "three-columns",
+                    "left-sidebar",
+                    "right-sidebar",
+                    "custom-background",
+                    "custom-header",
+                    "custom-menu",
+                    "editor-style",
+                    "post-formats",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "theme-options",
+                    "translation-ready",
+                    "accessibility-ready"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyfour": {
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Uni"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20231228_uniDemoWpPackage_4d05ae358424d5a78184_20231228170344_installer-backup.php",
+    "package_name": "20231228_uniDemoWpPackage_4d05ae358424d5a78184_20231228170344_archive.zip",
+    "package_hash": "4d05ae3-28170344",
+    "package_notes": ""
+}

@@ -1,0 +1,75 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: December 28, 2023 5:03 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.7.1
+WORDPRESS:	6.4.2
+PHP INFO:	8.0.30 | SAPI: litespeed
+SERVER:		LiteSpeed 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (180M default) 
+MEMORY STACK: 16MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20231228_uniDemoWpPackage_4d05ae358424d5a78184_20231228170344_database.sql
+SQL FILE SIZE: 9.08MB (9526026)
+SQL FILE TIME: 2023-12-28 17:03:55
+SQL RUNTIME: 1.57 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home1/zedacoke/public_html/UniDemo
+ARCHIVE FILE: 20231228_uniDemoWpPackage_4d05ae358424d5a78184_20231228170344_archive.zip
+FILTERS: *ON*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  zip;rar;tar;gz;bz2;7z;
+----------------------------------------
+COMPRESSING
+SIZE:	0B
+STATS:	Dirs 0 | Files 0
+SQL ADDED: 20231228_uniDemoWpPackage_4d05ae358424d5a78184_20231228170344_database.sql
+ZipArchive Object
+(
+    [lastId] => 0
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1
+    [filename] => /home1/zedacoke/public_html/UniDemo/wp-content/backups-dup-lite/tmp/20231228_uniDemoWpPackage_4d05ae358424d5a78184_20231228170344_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 0
+[PHP ERR][NOTICE] MSG:ob_flush(): Failed to flush buffer. No buffer to flush [CODE:8|FILE:/home1/zedacoke/public_html/UniDemo/wp-content/plugins/duplicator/classes/utilities/class.u.php|LINE:173]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 1.44MB
+ARCHIVE RUNTIME: 0.41 sec.
+MEMORY STACK: 16MB
+building installer
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 9.08MB
+INSTALLER FILE: 73.48KB
+ARCHIVE FILE: 3.2MB 
+EXPECTED FILE/DIRECTORY COUNT: 0
+ACTUAL FILE/DIRECTORY COUNT: 0
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 2.78 sec.
+PEAK PHP MEMORY USED: 18MB
+DONE PROCESSING => 20231228_uniDemoWpPackage December 28, 2023 5:03 pm
+
